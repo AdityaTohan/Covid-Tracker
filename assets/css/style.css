@@ -1,0 +1,62 @@
+html {
+    user-select: none;
+    scroll-behavior: smooth;
+    min-height: 100%;
+}
+body {
+    background-image: url("../img/covid_main_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.main_heading {
+    font-family: 'Kalam', cursive;
+    font-size: 4vw;
+    margin-top: 20px;
+    color: #c13224;
+    text-decoration: underline;
+}
+.main_form {
+    margin-top: 60px;
+}
+.main_form label {
+    font-size: 18px;
+    font-weight: bold;
+}
+.main_form .sub_btn {
+    margin-top: 20px;
+}
+.main_form .inp {
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid black;
+    border-radius: 0px;
+    width: 75%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #790000;
+}
+.main_form .inp:focus {
+    outline: none;
+    background-color: transparent;
+    box-shadow: none;
+    color: #790000;
+}
+#display_cases {
+    display: none;
+    margin-top: 70px;
+}
+#deathsCase {
+    color: red;
+}
+#confirmedCase {
+    color: blue;
+}
+#activeCase {
+    color: #047e91;
+}
+#loading {
+    display: none;
+    margin-top: 75px;
+}
