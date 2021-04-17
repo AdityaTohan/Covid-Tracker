@@ -42,7 +42,7 @@ async function submitData() {
               const conf = response[index].Confirmed,
                   act = response[index].Active,
                   dth = response[index].Deaths
-              console.log(response);
+              console.log("Aditya");
 
               confirmed.innerHTML = conf
               active.innerHTML    = act
